@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@300;400;700&display=swap');
+@import url(components/banner.css);
+@import url(components/navbar.css);
+@import url(components/avatar.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+
+
+#contact {
+  height: 80vh;
+  background-color: #1f4068;
+}
+
+
+/*javascript bootstrap class*/
+.wow {
+  visibility: hidden;
+}
+
+
+/*top section*/
+#top {
+  max-height: 80vh;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.header {
+  padding-top: 72px;
+  margin-top: 24px;
+}
+
+/*./top section*/
+
+
+/*about section*/
+#about {
+  height: auto;
+  background-color: #1f4068;
+  padding-top: 104px;
+}
+
+.about-top h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 54px;
+  padding-top: 48px;
+  padding-bottom: 16px;
+  color: white;
+}
+
+.about-top p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 54px;
+  padding-top: 8px;
+  padding-bottom: 48px;
+  color: white;
+}
+
+/*/.about section*/
+
+
+/*skills section*/
+
+#skills {
+  height: 70vh;
+  background-color: #1f4068;
+  padding-top: 128px;
+
+}
+
+/*//diagonal box*/
+.diagonal-box {
+  min-height: 70vh;
+  /*object-fit: cover;*/
+  background-color: #e43f5a;
+  /*background-image: linear-gradient(45deg, #e43f5a, #e43f5a);*/
+  transform: skewY(-11deg);
+  padding: calc(960px * 0.09719); /* tan(11°)/2  == 0.09719 , 960 is the container's width*/
+  overflow: hidden;
+  /*padding-top: 160px;*/
+}
+
+.content {
+  transform: skewY(11deg);
+  /*padding: 96px;*/
+  /*margin-right: 0;*/
+}
+/*./diagonal box*/
+
+
+.skills-top h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 54px;
+  padding-bottom: 4px;
+  /*padding-top: 64px;*/
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+.skills-top p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 54px;
+  padding-top: 8px;
+  padding-bottom: 48px;
+  color: white;
+}
+
+.skills-logo {
+  font-size: 56px;
+  color: white;
+}
+
+.skills-logo:hover {
+  color: #1b1b2f;
+}
+
+/*./skills section*/
+
+
+
+/*mobile view*/
+@media (max-width: 768px) {
+
+.skills-top h2 {
+  font-size: 16px;
+}
+
+.skills-top p {
+  font-size: 12px;
+}
+
+.skills-logo {
+  font-size: 32px;
+  padding: 16px;
+}
+
+.diagonal-box {
+  /*min-height: 7vh;*/
+  padding: calc((960px * 0.09719)/3);
+}
+}
+
+/*./mobile view*/

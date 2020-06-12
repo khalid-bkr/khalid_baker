@@ -28,13 +28,13 @@ html, body {
 
 /*top section*/
 #top {
-  max-height: 80vh;
+  max-height: auto;
   box-shadow: 0 4px 2px -2px gray;
 }
 
 .header {
   padding-top: 72px;
-  margin-top: 24px;
+/*  margin-top: 24px;*/
 }
 
 /*./top section*/
@@ -73,7 +73,7 @@ html, body {
 /*skills section*/
 
 #skills {
-  height: 70vh;
+  height: auto;
   background-color: #1f4068;
   padding-top: 128px;
 

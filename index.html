@@ -48,7 +48,7 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link" href="#contact">contact</a>
             </li>
           </ul>
         </div>
@@ -192,7 +192,45 @@
 
     <!-- Contact Section -->
     <section id="contact">
-
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="d-flex justify-content-center">Drop me a message</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="contact-form wow fadeInUp">
+              <form id="my-form" action="https://formspree.io/mknqbqbb" method="post">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="form-group">
+                      <input id="name" type="text" name="Name" class="form-control" placeholder="Your Name" value="" />
+                    </div>
+                    <div class="form-group">
+                      <input id="email" type="text" name="Email" class="form-control" placeholder="Your Email" value="" />
+                    </div>
+                    <div class="form-group">
+                      <input id="subject" type="text" name="Subject" class="form-control" placeholder="Subject" value="" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="form-group">
+                      <textarea id="message" name="Message" class="form-control" placeholder="Your Message" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btn-contact" value="Send Message" />
+                      <p id="status" class="d-flex justify-content-center"></p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- /.Contact Section -->
 

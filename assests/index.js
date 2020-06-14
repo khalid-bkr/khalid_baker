@@ -58,7 +58,7 @@ $( document ).ready(function() {
         dataType:"json",
         success:function() {
           $('#my-form')[0].reset(); //clear form
-          document.getElementById("status").innerHTML = "Thank you for your message."; //display message
+          document.getElementById("status").innerHTML = "Thank you for your message <br> i'll respond to your message shortly."; //display message
         },
         error:function() {
           document.getElementById("status").innerHTML = "Oops! There was a problem.";

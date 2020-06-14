@@ -55,6 +55,7 @@ html, body {
   padding-top: 8px;
   padding-bottom: 48px;
   color: white;
+  text-align: center;
 }
 
 /*/.about section*/
@@ -104,7 +105,10 @@ html, body {
   padding-top: 8px;
   padding-bottom: 48px;
   color: white;
+  text-align: center;
+  word-wrap: break-word;
 }
+
 
 .skills-logo {
   font-size: 56px;
@@ -164,6 +168,57 @@ html, body {
 }
 
 /*./contact section*/
+
+/*Projects section*/
+
+#projects {
+  height: auto;
+  background-color: #1f4068;
+  padding-top: 200px;
+}
+
+.project-top {
+
+}
+
+.project-top h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 56px;
+  padding-bottom: 4px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+.project-top p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.project-top a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #e43f5a;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+
+
+
+/*./Projects section*/
 
 /*mobile view*/
 @media (max-width: 768px) {

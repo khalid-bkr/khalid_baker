@@ -121,7 +121,7 @@ html, body {
 
 /*./skills section*/
 
-/*Contacl section*/
+/*Contact section*/
 #contact {
   height: auto;
   background-color: #1f4068;
@@ -157,6 +157,21 @@ html, body {
 .form-control:focus {
   border-color: #e43f5a;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(228,64,89, 0.4);
+}
+
+.social-logo {
+  font-size: 56px;
+  color: #1f4068;
+  padding-left: 24px;
+}
+
+.social-logo:hover {
+  color: #162447;
+}
+
+.social-div {
+  display: flex;
+  justify-content: center;
 }
 
 #status {
@@ -216,8 +231,6 @@ html, body {
 }
 
 
-
-
 /*./Projects section*/
 
 /*mobile view*/
@@ -244,6 +257,11 @@ html, body {
 .contact-form {
   padding: 40px;
 }
+
+.social-div {
+  display: none;
+}
+
 }
 
 /*./mobile view*/

@@ -8,15 +8,15 @@ $( document ).ready(function() {
       e.preventDefault();
 
       //get the name field value
-      var name = $('#name').val();
+      let name = $('#name').val();
       //get the name field value
-      var email = $('#email').val();
+      let email = $('#email').val();
       //get the subject
-      var subject = $('#subject').val();
+      let subject = $('#subject').val();
       //get the message
-      var message = $('#message').val();
+      let message = $('#message').val();
       //get the status
-      var status = $('#status').val();
+      let status = $('#status').val();
 
 
       function validateForm() {

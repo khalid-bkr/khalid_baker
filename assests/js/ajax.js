@@ -1,23 +1,23 @@
 import { validateForm } from './form-validation.js';
 
-$('#my-form').on('submit', function(e) {
+const myForm = () => {
+
+
+     $('#my-form').on('submit', function(e) {
       e.preventDefault();
 
-      //get the name field value
-      let name = $('#name').value;
-      //get the name field value
-      let email = $('#email').value;
-      //get the subject
-      let subject = $('#subject').value;
-      //get the message
-      let message = $('#message').value;
-      //get the status
-      let status = $('#status').value;
+        let name = $('#name').val();
+        //get the name field value
+        let email = $('#email').val();
+        //get the subject
+        let subject = $('#subject').val();
+        //get the message
+        let message = $('#message').val();
+        //get the status
+        let status = $('#status').val();
 
 
-
-
-      if(!validateForm())  return false;
+      if(!validateForm()) return false;
 
       //send to formspree
       $.ajax({
@@ -40,8 +40,8 @@ $('#my-form').on('submit', function(e) {
 
       });
 
-
-
     })
 
-export { * };
+}
+
+export { myForm };

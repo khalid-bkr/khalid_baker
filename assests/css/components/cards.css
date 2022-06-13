@@ -2,11 +2,55 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4px;
-  background-color:white;
+  background-color: white;
   border: 1px solid #e43f5a;
   border-radius: 8px;
   box-shadow: 2px 2px 8px grey;
   margin-bottom: 48px;
+}
+
+.education-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+  margin: 0 2em;
+}
+
+.card {
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+  width: 100%;
+  background-color: #eeeeee;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 0.15em solid #00adb5;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 32px;
+  color: #393e46;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+  text-align: center;
+  color: #393e46;
+}
+
+.card-logo {
+  color: #00adb5;
+  font-size: 56px;
+  margin: 48px 0;
 }
 
 /*Projects cards*/
@@ -18,7 +62,6 @@
   padding: 64px 0;
 }
 
-
 .project-card {
   position: relative;
   display: flex;
@@ -27,16 +70,16 @@
   color: white;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border: 1px solid white;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   height: 256px;
 }
 
 .project-card p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   font-size: 24px;
   /*line-height: 32px;*/
@@ -52,7 +95,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,12 +103,11 @@
   color: white;
   font-size: 16px;
   font-weight: normal;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   opacity: 0;
-  transition: .45s ease-in-out;
+  transition: 0.45s ease-in-out;
   overflow: hidden;
-
 }
 
 .overlay:hover {
@@ -79,7 +121,7 @@
 }
 
 .overlay h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 16px;
   padding: 0px 16px;
@@ -98,7 +140,6 @@
   margin: 0 auto;
 }
 
-
 /*./Projects cards*/
 
 /*// Small devices (landscape phones, tablets 768px and up)*/
@@ -108,8 +149,8 @@
   }
 
   .cards-projects {
-  grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;
+  }
 }
 
 .card-logo {
@@ -118,11 +159,10 @@
   margin: 48px 0;
 }
 
-
 .card-about {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   padding: 40px;
 }
@@ -143,12 +183,11 @@
 
 .card-about p {
   font-size: 12px;
-  opacity: .8;
+  opacity: 0.8;
   margin: 0;
   text-align: center;
   color: #e43f5a;
 }
-
 
 .card-about .card-about-infos {
   padding: 16px;
@@ -163,4 +202,28 @@
   right: 16px;
   top: -20px;
   width: 40px;
+}
+
+@media (max-width: 992px) {
+  .education-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2em 2em;
+  }
+}
+
+@media (max-width: 576px) {
+  .education-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2em 2em;
+  }
+
+  .card h2 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
 }

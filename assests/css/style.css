@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@300;400;700&display=swap");
 @import url(components/banner.css);
 @import url(components/navbar.css);
 @import url(components/avatar.css);
 @import url(components/buttons.css);
 @import url(components/cards.css);
 
-
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   width: 100%;
@@ -16,7 +16,6 @@ html, body {
 .wow {
   visibility: hidden;
 }
-
 
 /*top section*/
 #top {
@@ -33,12 +32,12 @@ html, body {
 /*about section*/
 #about {
   height: auto;
-  background-color: #1f4068;
+  background-color: #222831;
   padding-top: 104px;
 }
 
 .about-top h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 56px;
@@ -48,7 +47,7 @@ html, body {
 }
 
 .about-top p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   font-size: 16px;
   line-height: 56px;
@@ -60,22 +59,22 @@ html, body {
 
 /*/.about section*/
 
-
 /*skills section*/
 
 #skills {
   height: auto;
-  background-color: #1f4068;
+  background-color: #222831;
   padding-top: 128px;
-
 }
 
 /*//diagonal box*/
 .diagonal-box {
   min-height: 70vh;
-  background-color: #e43f5a;
+  background-color: #00adb5;
   transform: skewY(-11deg);
-  padding: calc(960px * 0.09719); /* tan(11°)/2  == 0.09719 , 960 is the container's width*/
+  padding: calc(
+    960px * 0.09719
+  ); /* tan(11°)/2  == 0.09719 , 960 is the container's width*/
   overflow: hidden;
 }
 
@@ -84,9 +83,8 @@ html, body {
 }
 /*./diagonal box*/
 
-
 .skills-top h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 56px;
@@ -95,10 +93,8 @@ html, body {
   text-transform: uppercase;
 }
 
-
-
 .skills-top p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   font-size: 16px;
   line-height: 56px;
@@ -108,7 +104,6 @@ html, body {
   text-align: center;
   word-wrap: break-word;
 }
-
 
 .skills-logo {
   font-size: 56px;
@@ -124,12 +119,12 @@ html, body {
 /*Contact section*/
 #contact {
   height: auto;
-  background-color: #1f4068;
+  background-color: #222831;
   padding-top: 200px; //fix this later for margin above contact form
 }
 
 #contact h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 54px;
@@ -139,34 +134,35 @@ html, body {
 }
 
 .contact-form {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 56px;
   background-color: white;
-  border: 1px solid #e43f5a;
+  border: 1px solid #00adb5;
   border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   padding: 64px;
   margin: 40px 0;
 }
 
-.contact-form .form-control{
-    border-radius:0.6rem;
+.contact-form .form-control {
+  border-radius: 0.6rem;
 }
 
 .form-control:focus {
-  border-color: #e43f5a;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(228,64,89, 0.4);
+  border-color: #00adb5;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(69, 231, 240, 0.4);
 }
 
 .social-logo {
   font-size: 56px;
-  color: #1f4068;
+  color: #222831;
   padding-left: 24px;
 }
 
 .social-logo:hover {
-  color: #162447;
+  color: #393e46;
 }
 
 .social-div {
@@ -175,9 +171,9 @@ html, body {
 }
 
 #status {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #e43f5a;
+  color: #00adb5;
   font-weight: bold;
   line-height: 40px;
 }
@@ -188,16 +184,15 @@ html, body {
 
 #projects {
   height: auto;
-  background-color: #1f4068;
+  background-color: #222831;
   padding-top: 200px;
 }
 
 .project-top {
-
 }
 
 .project-top h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 56px;
@@ -206,10 +201,8 @@ html, body {
   text-transform: uppercase;
 }
 
-
-
 .project-top p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   font-size: 16px;
   line-height: 32px;
@@ -221,47 +214,43 @@ html, body {
 }
 
 .project-top a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   white-space: nowrap;
-  color: #e43f5a;
+  color: #00adb5;
   font-weight: bold;
   font-size: 16px;
-
 }
-
 
 /*./Projects section*/
 
 /*mobile view*/
 @media (max-width: 768px) {
+  .skills-top h2 {
+    font-size: 16px;
+  }
 
-.skills-top h2 {
-  font-size: 16px;
-}
+  .skills-top p {
+    font-size: 12px;
+  }
 
-.skills-top p {
-  font-size: 12px;
-}
+  .skills-logo {
+    font-size: 32px;
+    padding: 16px;
+  }
 
-.skills-logo {
-  font-size: 32px;
-  padding: 16px;
-}
+  .diagonal-box {
+    /*min-height: 7vh;*/
+    padding: calc((960px * 0.09719) / 3);
+  }
 
-.diagonal-box {
-  /*min-height: 7vh;*/
-  padding: calc((960px * 0.09719)/3);
-}
+  .contact-form {
+    padding: 40px;
+  }
 
-.contact-form {
-  padding: 40px;
-}
-
-.social-div {
-  display: none;
-}
-
+  .social-div {
+    display: none;
+  }
 }
 
 /*./mobile view*/

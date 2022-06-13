@@ -2,7 +2,7 @@
   border: none;
   border-radius: 8px;
   padding: 16px;
-  background: #1f4068;
+  background: #222831;
   font-size: 16px;
   line-height: normal;
   color: white;
@@ -11,12 +11,12 @@
 }
 
 .btn-contact:hover {
-  border-color: #1f4068;
-  background-color: #162447;
+  border-color: #222831;
+  background-color: #393e46;
 }
 
 .btn-ghost {
-  border: 2px solid #e43f5a;
+  border: 2px solid #00adb5;
   border-radius: 32px;
   padding: 8px 12px;
   background-color: transparent;
@@ -28,12 +28,10 @@
 }
 
 .btn-ghost:hover {
-  background-color: #e43f5a;
+  background-color: #00adb5;
 }
 
-
 @media (max-width: 768px) {
-
   .btn-contact {
     width: 100%;
   }

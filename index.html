@@ -37,12 +37,10 @@
     <section id="top">
       <!--Navbar -->
       <nav
-        class="navbar navbar-expand-md navbar-dark animated slideInDown"
-        style="background-color: #e43f5a"
-        id="sideNav"
+        class="navbar navbar-expand-md navbar-dark nav-style animated slideInDown"
       >
-        <div class="container">
-          <a class="navbar-brand" href="#top">
+        <div class="container-fluid navbar-container">
+          <!-- <a class="navbar-brand" href="#top">
             <img
               src="assests/images/picsquare.png"
               width="40"
@@ -52,7 +50,13 @@
               id="myavatar"
             />
             <p class="altavatar">KHALID <strong>BAKER</strong></p>
-          </a>
+          </a> -->
+          <div id="logo" class="navbar-brand">
+            <a href="#top">
+              <p>KHALED <strong>BAKER</strong></p>
+            </a>
+          </div>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -66,7 +70,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav nav-items ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#about">about</a>
               </li>
@@ -130,17 +134,11 @@
             </p>
           </div>
           <div class="col-12">
-            <div class="cards wow slideInLeft">
-              <div class="card-about">
+            <div class="education-cards wow slideInLeft">
+              <div class="card">
                 <div class="wow zoomIn" data-wow-delay="0.4s">
                   <i
-                    class="
-                      fas
-                      fa-graduation-cap
-                      d-flex
-                      justify-content-center
-                      card-logo
-                    "
+                    class="fas fa-graduation-cap d-flex justify-content-center card-logo"
                   ></i>
                   <hr style="margin-bottom: 32px" />
                   <h2 class="d-flex justify-content-center">
@@ -155,7 +153,7 @@
                 </div>
               </div>
 
-              <div class="card-about">
+              <div class="card">
                 <div class="wow zoomIn" data-wow-delay="0.8s">
                   <i
                     class="fas fa-code d-flex justify-content-center card-logo"
@@ -173,16 +171,10 @@
                 </div>
               </div>
 
-              <div class="card-about">
+              <div class="card">
                 <div class="wow zoomIn" data-wow-delay="1.2s">
                   <i
-                    class="
-                      fas
-                      fa-university
-                      d-flex
-                      justify-content-center
-                      card-logo
-                    "
+                    class="fas fa-university d-flex justify-content-center card-logo"
                   ></i>
                   <hr style="margin-bottom: 32px" />
                   <h2 class="d-flex justify-content-center">
@@ -191,7 +183,7 @@
                   <p>
                     Northeastern University - Seattle, WA<span
                       class="d-flex justify-content-center"
-                      >2021</span
+                      >2021 - 2023 (expected)</span
                     >
                   </p>
                 </div>
